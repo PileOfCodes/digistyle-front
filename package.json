@@ -1,0 +1,30 @@
+{
+  "private": true,
+  "scripts": {
+    "build": "nuxt build",
+    "dev": "nuxt dev",
+    "generate": "nuxt generate",
+    "preview": "nuxt preview",
+    "postinstall": "nuxt prepare"
+  },
+  "devDependencies": {
+    "@nuxtjs/tailwindcss": "^6.4.1",
+    "@pinia-plugin-persistedstate/nuxt": "^1.1.1",
+    "nuxt": "^3.1.0",
+    "nuxt-icon": "^0.3.2",
+    "nuxt-lodash": "^2.4.1"
+  },
+  "dependencies": {
+    "@chenfengyuan/vue-countdown": "^2.1.0",
+    "@formkit/nuxt": "^0.16.4",
+    "@pinia/nuxt": "^0.4.10",
+    "@soerenmartius/vue3-clipboard": "^0.1.2",
+    "@vueform/slider": "^2.1.7",
+    "nuxt-swiper": "^1.0.1",
+    "pinia": "^2.0.36",
+    "query-string": "^8.1.0",
+    "tw-elements": "^1.0.0-beta1",
+    "vue": "^3.2.47",
+    "vue3-tabs-component": "^1.2.0"
+  }
+}

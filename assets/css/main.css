@@ -1,0 +1,85 @@
+@import url('./fonts.css');
+
+.swiper {
+    width: 100%;
+}
+
+.swiper-scrollbar.swiper-scrollbar-vertical, .swiper-vertical>.swiper-scrollbar {
+    position: absolute;
+    top: 0 !important;
+    width: 5px !important;
+    left: 0 !important;
+    left: var(--swiper-scrollbar-left,0) !important;
+    right: unset !important;
+    right: var(--swiper-scrollbar-right,unset) !important;
+}
+
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: irsNormal;
+}
+
+.favoriteBrand::after{
+    content: "\e039" !important;
+    font-family: fonticon;
+}
+
+.shopping-bag::after{
+    content: "\e127" !important;
+    font-size: 21px;
+    font-family: fonticon;
+}
+
+.bookmark::after{
+    content: "\e01b" !important;
+    font-size: 21px;
+    font-family: fonticon;
+}
+
+.filterIcon::after {
+    content: '\e110' ;
+    font-size: 12px;
+    font-family: fonticon;
+}
+.starIcon::before {
+    content: '\e140' ;
+    font-size: 17px;
+    margin-left: 5px;
+    font-family: fonticon;
+}
+
+.commentIcon::before {
+    content: '\e046' ;
+    font-size: 17px;
+    margin-left: 5px;
+    font-family: fonticon;
+}
+
+.shareIcon::before {
+    content: '\e10f' ;
+    font-size: 19px;
+    margin-left: 5px;
+    font-family: fonticon;
+}
+
+.deliveryIcon::before {
+    content: '\e076' ;
+    font-size: 17px;
+    font-family: fonticon;
+}
+
+.warrantyIcon::before {
+    content: '\e084' ;
+    font-size: 17px;
+    font-family: fonticon;
+}
+
+.rulerIcon::before {
+    content: '\e0f8' ;
+    font-size: 17px;
+    font-family: fonticon;
+}
